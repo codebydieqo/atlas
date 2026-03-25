@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { googleSans } from "@/lib/fonts";
+import { poppins } from "@/lib/fonts";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { ClerkProvider } from "@clerk/nextjs";
@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <ClerkProvider>
-      <html lang="en" className={cn("font-normal", googleSans.className)}>
+      <html lang="en" className={cn("font-normal", poppins.className)}>
         <body>
           <ConvexClientProvider>{children}</ConvexClientProvider>
         </body>

@@ -1,5 +1,5 @@
-import { Google_Sans } from "next/font/google";
+import { Poppins } from "next/font/google";
 
-export const googleSans = Google_Sans({
+export const poppins = Poppins({
   weight: ["400", "700"],
 });

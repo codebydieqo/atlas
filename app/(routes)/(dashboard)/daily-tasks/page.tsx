@@ -1,9 +1,9 @@
 import PageHeader from "@/components/page-header";
 
-export default function DashboardPage() {
+export default function DailyTasksPage() {
   return (
     <div>
-      <PageHeader headerText="Dashboard" />
+      <PageHeader headerText="Daily Tasks" />
     </div>
   );
 }

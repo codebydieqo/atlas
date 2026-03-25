@@ -1,7 +1,9 @@
 import { Button } from "@/components/button";
 import MaxWidthWrapper from "@/components/max-width-wrapper";
-import { SignInButton, SignUpButton } from "@clerk/nextjs";
+import { SignInButton, SignOutButton, SignUpButton } from "@clerk/nextjs";
 import Link from "next/link";
+import { Authenticated, Unauthenticated } from "convex/react";
+import AuthStatus from "@/components/auth-status";
 
 export default function Layout({
   children,
@@ -20,11 +22,7 @@ export default function Layout({
             <a href="#benefits" className="text-white">
               Benefits
             </a>
-            <SignInButton mode="modal" fallbackRedirectUrl={"/dashboard"}>
-              <Button className="border-white bg-white text-[#1c39bb]">
-                Get Started
-              </Button>
-            </SignInButton>
+            <AuthStatus />
           </nav>
         </MaxWidthWrapper>
       </header>

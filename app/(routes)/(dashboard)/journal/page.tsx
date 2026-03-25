@@ -1,9 +1,9 @@
 import PageHeader from "@/components/page-header";
 
-export default function DashboardPage() {
+export default function JournalPage() {
   return (
     <div>
-      <PageHeader headerText="Dashboard" />
+      <PageHeader headerText="Journal" />
     </div>
   );
 }

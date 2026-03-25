@@ -22,7 +22,7 @@ export function Button({
     primary: "px-3 py-1 border border-[#1c39bb] bg-[#1c39bb] text-white",
     secondary:
       "px-3 py-1 border border-[#1c39bb]/5 bg-[#1c39bb]/20 text-[#1c39bb]",
-    outline: "px-3 py-1 border border-[#1c39bb] text-[#1c39bb]",
+    outline: "px-3 py-1 border border-[#1c39bb] bg-transparent text-[#1c39bb]",
     destructive: "px-3 py-1 border border-red-500 bg-red-500 text-white",
     icon: "h-[33.79px] aspect-square grid place-items-center bg-[#1c39bb] text-white",
     iconSm:
